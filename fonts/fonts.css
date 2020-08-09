@@ -40,7 +40,6 @@ a {
 }
 
 .promo {
-	margin-top: 34px;
 	display: grid;
 	grid-template-columns: repeat(20, 5%);
 	grid-template-rows: repeat(20, 5%);
