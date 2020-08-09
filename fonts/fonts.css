@@ -9,3 +9,84 @@
 	font-style: italic;
 }
 Gotham Pro
+
+* {
+  font-family: 'Gotham Pro';
+}
+
+image {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header {
+  position: flex;
+  background: #FFFFFF;
+}
+
+.nav {
+  width: 100%;
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.nav__search {
+  position: flex;
+  width: 150px;
+  height: 0px;
+  margin: 15px 0 0 0;
+  border-bottom: 0.5px solid #000000;
+}
+
+.promo {
+  display: grid;
+  grid-template-columns: repeat(25, 5%);
+  grid-template-rows: repeat(25, 5%);
+  margin: 40px;
+}
+
+.promo__img {
+  grid-column: 1 / 21;
+  grid-row: 1 / 21;
+  width: 100%;
+  display: block;
+}
+
+.promo__title {
+  font-size: 30px;
+  line-height: 29px;
+  align-items: flex-start;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  grid-column: 2;
+  grid-row: 8 / sp;
+}
+
+.promo__link {
+  font-size: 12px;
+  line-height: 29px;
+  align-items: baseline;
+  text-align: inherit;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  grid-column: 2/5;
+  grid-row: 15;
+}
+
+.promo__link-arrow {
+  font-size: 2px;
+  line-height: 11px;
+}
