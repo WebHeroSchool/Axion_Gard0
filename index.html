@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Axion</title>
-  <!-- <link rel="stylesheet" href="../Axion/fonts/fonts.css" type="text/css"> -->
+  <!-- <link rel="stylesheet" href="./fonts/fonts.css" type="text/css"> -->
   <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
+
 <body>
   <header class="header">
     <nav class="nav">
-      <img class="nav__link nav__link-logo" src="./img/Axion-logo.svg" alt="Axion-logo.svg"></a>
+      <a href="nav__link">
+        <img class=" nav__link-logo" src="./img/Axion-logo.svg" alt="Axion-logo.svg"></a></a>
       <a class="nav__link" href="#">Shop</a>
       <a class="nav__link" href="#">News</a>
       <a class="nav__link" href="#">Team</a>
       <a class="nav__link" href="#">Legacy</a>
       <a class="nav__link" href="#">Help</a>
-      <img class="nav__search">
-      <img class="nav__search-icon" src="./img/search.png" alt="search.png">
-      </a>
+      <a class="nav__link" href="#"> <img class="nav__search">
+        <img class="nav__search-icon" src="./img/search.png" alt="search.png"></a>
       <a class="nav__link" href="#">Sing in</a>
       <a class="nav__link" href="#">Cart</a>
-      <img class="nav__link-icon" src="./img/united-states.svg" alt="united-states.svg">
+      <a href="nav__link">
+        <img class="nav__link-icon" src="./img/united-states.svg" alt="united-states.svg"></a>
     </nav>
   </header>
   <main class="main">
@@ -33,12 +36,12 @@
       </h4>
     </div>
     <div class="products">
-      <h3 class="products__title"> Featured product</h3>
+      <h3 class="products__title" href="#"> Featured product</h3>
       <ul class="products__list">
         <li class="products__item item-products">
           <img class="item-products__img" src="./img/product_rasta.png" alt="product_rasta.png" href="#">
           <h4 class="item-products__title">Atlas Black/Rasta Axion</h4>
-          <p>$89.00</p>
+          <p class="products__price">$89.00</p>
           <img class="item-products__ellipse" src="./img/palette_grey.png" alt="palette_grey.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_black.png" alt="palette_black.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_red.png" alt="palette_red.png" href="#">
@@ -47,7 +50,7 @@
         <li class="products__item item-products">
           <img class="item-products__img" src="./img/product_chili.png" alt="product_chili.png" href="#">
           <h4 class="item-products__title">Camel/Chili Pepper Axion</h4>
-          <p>$74.00</p>
+          <p class="products__price">$74.00</p>
           <img class="item-products__ellipse" src="./img/palette_grey.png" alt="palette_grey.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_black.png" alt="palette_black.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_red.png" alt="palette_red.png" href="#">
@@ -56,7 +59,7 @@
         <li class="products__item item-products">
           <img class="item-products__img" src="./img/product_smoke.png" alt="product_smoke.png" href="#">
           <h4 class="item-products__title">Mandel Smoke/Rust Axion</h4>
-          <p>$69.00</p>
+          <p class="products__price">$69.00</p>
           <img class="item-products__ellipse" src="./img/palette_grey.png" alt="palette_grey.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_black.png" alt="palette_black.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_red.png" alt="palette_red.png" href="#">
@@ -65,7 +68,7 @@
         <li class="products__item item-products">
           <img class="item-products__img" src="./img/product_electric.png" alt="product_electric.png.png" href="#">
           <h4 class="item-products__title">Cloud/Electric Blue Axion</h4>
-          <p>$69.00</p>
+          <p class="products__price">$69.00</p>
           <img class="item-products__ellipse" src="./img/palette_grey.png" alt="palette_grey.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_black.png" alt="palette_black.png" href="#">
           <img class="item-products__ellipse" src="./img/palette_red.png" alt="palette_red.png" href="#">
@@ -74,17 +77,17 @@
       </ul>
     </div>
     <div class="aside">
-      <button class="aside__btn">
-        <img class="aside__btn--preview" src="./img/preview.png" alt="preview.png" href="#">
-        <img class="aside__btn--img" src="./img/preview_btn.png" alt="preview_btn.png" href="#">
-      </button>
-      <h3 class="aside__title">Legendary footwear reborn</h3>
-      <p class="aside__text">We are a brand with a history and are relaunching for 2019.
-        We’ve been a part of the skater’s family ever since it’s early teenage years.
-        And now we presentate a new footwear collection.
-      </p>
-      <img class="aside__link" src="./img/learn_more_white.png" alt="learn_more_white.png" href="#">
-      <img class="aside__link-arrow" src="./img/white_arrow.png" alt="Arrow.png" href="#">
+      <h4 class="aside__btn">
+        <img class="aside__preview" src="./img/preview.png" alt="preview.png" href="#">
+        <img class="aside__btn_img" src="./img/preview_btn.png" alt="preview_btn.png" href="#">
+        <h3 class="aside__title">Legendary footwear reborn</h3>
+        <p class="aside__text">We are a brand with a history and are relaunching for 2019.
+          We’ve been a part of the skater’s family ever since it’s early teenage years.
+          And now we presentate a new footwear collection.
+        </p>
+        <h4 class="aside__link" href="#">Learn More
+          <img class="aside__link-arrow" src="./img/white_arrow.png" alt="Arrow.png" href="#">
+        </h4>
     </div>
     <div class="stories">
       <h3 class="stories__title"> Recent stories</h3>
@@ -96,8 +99,9 @@
             He’s been known to go big on and off the board, but it’s been rare we get a glimpse
             into how Anagoa lives his day-to-day, to see what makes Anagoa tick.
           </p>
-          <img class="item-stories__link" src="./img/learn_more_black.png" alt="learn_more_black.png" href="#">
-          <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          <h4 class="item-stories__link" href="#">Learn More
+            <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          </h4>
           <a class="item-stories__date" href="#"></a>
         </li>
         <li class="stories__item item-stories">
@@ -107,8 +111,9 @@
             frontside flip on The Berrics.
             Click the image below to see the full gallery and read up on what happened that day. Photo:Yoon Sul
           </p>
-          <img class="item-stories__link" src="./img/learn_more_black.png" alt="learn_more_black.png" href="#">
-          <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          <h4 class="item-stories__link" href="#">Learn More
+            <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          </h4>
         </li>
         <li class="stories__item item-stories">
           <img class="item-stories__img" src="./img/stories_kevin.png" alt="stories_kevin.png" href="#">
@@ -118,8 +123,9 @@
             After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly
             lighting every spot he hits on fire.
           </p>
-          <img class="item-stories__link" src="./img/learn_more_black.png" alt="learn_more_black.png" href="#">
-          <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          <h4 class="item-stories__link" href="#">Learn More
+            <img class="item-stories__link-arrow" src="./img/arrow_black.png" alt="arrow_black.png" href="#">
+          </h4>
         </li>
         <div class="stories__galery">
           <h4 class="stories__socials">#AXIONfootwear</h4>
